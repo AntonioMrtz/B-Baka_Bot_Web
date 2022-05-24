@@ -95,14 +95,36 @@ a {
 
 @media (max-width:900px){
 
+
     .nav li{
 
         display: block;    
       
     }
+    .title{
+
+        size: 1px;
+        text-align: center;
+        color: white;
     
+        -webkit-text-fill-color:transparent;
+        -webkit-text-stroke-width:0.4px ;
+    }
+    .nav a{
+
+        font-size: 20px;
+    }
+
+    .img-title{
+
+        visibility: hidden;
+        
+    }
 
 }
+
+
+
 .main-header{
 
     background-image: url("Imgs/banner_cut.jpg");
@@ -209,7 +231,7 @@ a {
     text-align: center;
    
 
-    font-size: 60px;
+    font-size: 90px;
     color: white;
 
     -webkit-text-fill-color:transparent;
@@ -219,15 +241,16 @@ a {
 
 .img-title{
 
-    max-height: 90px;
-    max-width: 90px;
+    max-height: 107px;
+    max-width: 110px;
     padding: 10px;
+    padding-bottom: 30px;
     vertical-align:bottom;
     
 }
 
 .div-title{
-    margin-left:60%;
+    margin-left:55%;
     margin-top: 0%;
     padding-top: 70px;
     
