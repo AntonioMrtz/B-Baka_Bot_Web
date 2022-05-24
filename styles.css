@@ -9,20 +9,22 @@
 
 
 html,body{
-
+    
     margin: 0px;
     padding: 0px;
-
+    
 }
+
 
 .nav{
 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
+
 .nav ul{
 
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -106,4 +108,63 @@ a {
     width: 100%;
     height: 600px;
 
+}
+
+
+.footer{
+
+    background-color: #7a7595;
+    position: relative;
+}
+
+
+.footer li{
+
+    display: inline;
+    align-items: center;
+
+}
+    
+
+
+.footer img{
+
+    max-height: 40px;
+    max-width: 40px;
+    padding: 5px;
+    
+    
+}
+
+.footer a{
+
+    
+    color:white;
+    font-size: 110%;
+
+}
+
+.copyright{
+
+    margin-left: 25%;
+    
+}
+
+.hr-sections{
+
+    border-color: #7a7595;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.header-section{
+
+
+    padding:25px;
+}
+
+.p-section{
+
+    padding:25px;
 }
