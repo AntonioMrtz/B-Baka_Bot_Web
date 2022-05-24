@@ -27,6 +27,10 @@ html,body{
     margin: 0px;
 }
 
+.mobile-commands{
+    display: none;
+}
+
 @media (max-width:900px){
 
 
@@ -48,6 +52,14 @@ html,body{
 
         visibility: hidden;
         
+    }
+
+    .pc-commands{
+        display: none;
+    }
+    .mobile-commands{
+
+        display: block;
     }
 
 }
