@@ -27,6 +27,30 @@ html,body{
     margin: 0px;
 }
 
+@media (max-width:900px){
+
+
+    .nav li{
+
+        display: block;    
+      
+    }
+    .div-title{
+
+        display: none;
+    }
+    .nav a{
+
+        font-size: 20px;
+    }
+
+    .img-title{
+
+        visibility: hidden;
+        
+    }
+
+}
 .nav ul{
 
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -93,35 +117,6 @@ a {
 
 
 
-@media (max-width:900px){
-
-
-    .nav li{
-
-        display: block;    
-      
-    }
-    .title{
-
-        size: 1px;
-        text-align: center;
-        color: white;
-    
-        -webkit-text-fill-color:transparent;
-        -webkit-text-stroke-width:0.4px ;
-    }
-    .nav a{
-
-        font-size: 20px;
-    }
-
-    .img-title{
-
-        visibility: hidden;
-        
-    }
-
-}
 
 
 
