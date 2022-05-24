@@ -253,3 +253,13 @@ a {
     padding-top: 70px;
     
 }
+
+.div-comandos{
+
+    background-color: #474554;
+    margin:25px;
+    padding: 30px;
+    text-size-adjust: auto;
+    border-radius: 15px;
+
+}
