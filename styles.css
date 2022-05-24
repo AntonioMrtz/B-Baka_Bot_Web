@@ -71,6 +71,7 @@ html,body{
 
     padding: 10px;
     margin-top: 0%;
+    align-items: center;
 }
 
 .nav li{
@@ -103,6 +104,8 @@ html,body{
 .nav a:hover{
 
     background-color: #cc0099;
+    border-radius: 15px;
+    
 
 }
 
