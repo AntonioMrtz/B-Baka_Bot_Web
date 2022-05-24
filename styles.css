@@ -13,6 +13,7 @@ html,body{
     margin: 0px;
     padding: 0px;
     font-size: 18px;
+    scroll-behavior: smooth;
     
 }
 
@@ -39,13 +40,13 @@ html,body{
     justify-content: center;
     align-items: center;
     padding-top: 0px;
-
     
 }
 
 .section1{          /*TODO ponerle nombre y ordenarlo*/
 
     padding: 10px;
+    margin-top: 0%;
 }
 
 .nav li{
@@ -169,6 +170,22 @@ a {
     margin-right: 25%;
 }
 
+
+.header-section-title{
+
+    margin-left: 32%;
+    margin-right: 32%;
+    
+    font-size: 40px;
+    color: #8A84EE;
+
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke-width:0.4px ;
+    
+    
+   
+    
+}
 
 .header-section{
 
