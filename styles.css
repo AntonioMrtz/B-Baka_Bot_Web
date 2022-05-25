@@ -227,7 +227,9 @@ a {
 
 .p-section{
 
-    padding:25px;
+    padding-top:25px;
+    padding-right: 10%;
+    padding-left: 10%;
     text-size-adjust: auto;
 }
 
