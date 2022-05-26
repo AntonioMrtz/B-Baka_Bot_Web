@@ -31,6 +31,22 @@ html,body{
     display: none;
 }
 
+@media (max-width:1561px){
+
+    .img-title{
+
+        visibility: hidden;
+        
+    }
+    .div-title{
+
+        margin-left:0%;
+        margin-top: 100%;
+        padding-top: 00px;
+    }
+
+}
+
 @media (max-width:1038px){
 
 
