@@ -117,7 +117,8 @@ html,body{
 
     background-color: #cc0099;
     border-radius: 15px;
-    
+    font-weight: bolder;
+    transition: .1s;
 
 }
 
