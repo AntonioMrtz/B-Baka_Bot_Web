@@ -63,6 +63,19 @@ html,body{
         
     }
 
+    .div-comandos{
+
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-size-adjust: none;
+        border-radius: 15px;
+
+
+    }
+
+    /*
     .pc-commands{
         display: none;
 
@@ -70,7 +83,7 @@ html,body{
     .mobile-commands{
 
         display: block;
-    }
+    }*/
 
 }
 .nav ul{
