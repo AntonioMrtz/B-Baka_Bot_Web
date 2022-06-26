@@ -39,58 +39,8 @@ html,body{
     }
 
 }
-
-@media (max-width:1038px){
-
-
-    .nav li{
-
-        display: block;    
-      
-    }
-    .div-title{
-
-        display: none;
-    }
-    .nav a{
-
-        font-size: 20px;
-    }
-
-    .img-title{
-
-        visibility: hidden;
-        
-    }
-
-    .div-comandos{
-
-        background-color: red;
-        margin-left: 0%;
-        margin-right: 0%;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        padding-left: 0px;
-        padding-right: 0px;
-        text-size-adjust: auto;
-        border-radius: 15px;
-
-
-    }
-
-    /*
-    .pc-commands{
-        display: none;
-
-    }
-    .mobile-commands{
-
-        display: block;
-    }*/
-
-}
 .nav ul{
-
+    
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
     margin: 100px;
@@ -113,7 +63,7 @@ html,body{
 }
 
 .nav li{
-
+    
     display: inline;
 
   
@@ -135,6 +85,7 @@ html,body{
 
 .main-nav{
 
+    
     text-align: center;
     
 }
@@ -317,4 +268,65 @@ a {
 
     padding-left: 10%;
     padding-bottom: 3%;
+}
+
+
+
+@media (max-width:1038px){
+    
+    
+    .nav li{
+
+        display: block;    
+      
+    }
+    .div-title{
+
+        display: none;
+    }
+    .nav a{
+
+        font-size: 20px;
+    }
+
+    .img-title{
+
+        visibility: hidden;
+        
+    }
+
+    .div-comandos{
+
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-size-adjust: auto;
+        border-radius: 15px;
+
+
+    }
+
+    .columna-command{
+        padding-bottom: 3%;
+    }
+    
+    .columna-description{
+    
+        padding-left: 5%;
+        padding-bottom: 3%;
+    }
+
+    /*
+    .pc-commands{
+        display: none;
+
+    }
+    .mobile-commands{
+
+        display: block;
+    }*/
+
 }
