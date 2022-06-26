@@ -65,6 +65,7 @@ html,body{
 
     .pc-commands{
         display: none;
+
     }
     .mobile-commands{
 
@@ -281,9 +282,23 @@ a {
 .div-comandos{
 
     background-color: #474554;
-    margin:25px;
-    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
     text-size-adjust: auto;
     border-radius: 15px;
 
+}
+
+.columna-command{
+    padding-bottom: 3%;
+}
+
+.columna-description{
+
+    padding-left: 10%;
+    padding-bottom: 3%;
 }
