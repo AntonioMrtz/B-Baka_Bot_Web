@@ -65,11 +65,14 @@ html,body{
 
     .div-comandos{
 
+        background-color: red;
+        margin-left: 0%;
+        margin-right: 0%;
         padding-top: 60px;
         padding-bottom: 60px;
         padding-left: 0px;
         padding-right: 0px;
-        text-size-adjust: none;
+        text-size-adjust: auto;
         border-radius: 15px;
 
 
