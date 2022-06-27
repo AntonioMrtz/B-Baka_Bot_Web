@@ -55,40 +55,40 @@
           <table>
 
               <tr>
-                <td class="columna-command">!runes [champion_name] [role]</td>
+                <td class="columna-command"><b>!runes [champion_name] [role]</b></td>
                 <td class="columna-description">Devuelve las runas de un campeón para cierto rol</td>
               </tr>
 
 
               <tr>
-                <td class="columna-command">!opgg [summoner_name]</td>
+                <td class="columna-command"><b>!opgg [summoner_name]</b></td>
                 <td class="columna-description">Retorna el perfil de Opgg seleccionado</td>
               </tr>
 
               <tr>
-                <td class="columna-command">!definition [word_or_phrase]</td>
+                <td class="columna-command"><b>!definition [word_or_phrase]</b></td>
                 <td class="columna-description">Busca la información en el Urban Dictionary de la palabra o frase elegida</td>
               </tr>
 
 
               <tr>
-                <td class="columna-command">!wordoftheday</td>
+                <td class="columna-command"><b>!wordoftheday</b></td>
                 <td class="columna-description">Muestra la definición de la palabra del dia en Urban Dictionary</td>
               </tr>
 
               <tr>
-                <td class="columna-command">!coinflip</td>
+                <td class="columna-command"><b>!coinflip</b></td>
                 <td class="columna-description">Lanza una moneda al aire que devuelve cara o cruz</td>
               </tr>
 
 
               <tr>
-                <td class="columna-command">!help</td>
+                <td class="columna-command"><b>!help</b></td>
                 <td class="columna-description">Muestra una lista con todos los comandos disponibles</td>
               </tr>
 
               <tr>
-                <td class="columna-command">!bloodtrail</td>
+                <td class="columna-command"><b>!bloodtrail</b></td>
                 <td class="columna-description">Se imprime en el canal el emote Bloodtrail</td>
               </tr>
 
@@ -105,8 +105,123 @@
 
     <section class="section1" id="tech">
 
-        <h2 class="header-section">TECH</h2>
-        <p class="p-section">Solo falta explicar el proyecto aqui</p>
+        <div style="padding-bottom: 5%;">
+
+          <h2 class="header-section">TECH</h2>
+
+        </div>
+
+
+
+        <div class="tech" >
+
+
+          <div class="img-izq">
+
+            <img class="img-tech" src="/Imgs/Urban_Dictionary_logo.svg.png">
+
+          </div>
+
+          <div class="tech-der">
+    
+            Para la consulta de palabras específicas con el comando <a href="#commands"><b>!definition</b></a> se ha usado la API publica proporcionada por Urban Dictionary a través
+            de la cual se obtiene una estructura JSON con los diferentes datos. Se ha necesitado realizar un estudio del formato para de peticiones a la API
+            además de obtener los conocimientos necesarios para tratar los JSON y los datos proporcionados.
+          </div>
+    
+
+
+        </div>
+
+
+        <div class="tech" >
+
+
+          
+          <div class="tech-der">
+            
+            Con respecto a OPGG actualmente contamos con la función de obtención del perfil del invocador así como de las runas para un determinado campeón
+            con los comandos <a href="#commands"><b>!opgg</b></a> y <a href="#commands"><b>!runes</b></a> respectivamente. Se ha realizado un estudio de 
+            los diferentes formatos de URLs que utiliza la página así como los numerosos casos especiales tales como nombres con carácteres especiales y con 
+            varias palabras entre otros. Para la obtención del perfil de invocador se ha realizado scrapping para la búsqueda de la foto correspondiente al
+            perfil y para las runas de un campeón se ha investigado el formato de URLS para las fotos de los campeones usadas en la página oficial de League of Legends.
+          </div>
+          
+          <div class="img-der">
+
+            <img class="img-tech" src="/Imgs/opgg.png">
+
+          </div>
+
+
+        </div>
+
+        <div class="tech" >
+
+
+          <div class="img-izq">
+
+            <img class="img-tech" src="/Imgs/axios.png">
+
+          </div>
+
+          <div class="tech-der">
+    
+            Para la simulación de un cliente web para la realización de consultas HTTP se ha empleado la libreria <a href="https://axios-http.com/">AXIOS</a>.
+            Una vez realizada la consulta se intercepta y transforma automáticamente al formato JSON. Esta tecnología ha sido
+            usada para obtener el código HTML de las diferentes webs para posteriormente realizar el scrapping necesario.
+          </div>
+    
+
+
+        </div>
+
+
+        <div class="tech" >
+
+
+          
+          <div class="tech-der">
+            
+            Para la integración con Discord se ha utilizado la librería <a href="https://discord.js.org/#/">DiscordJs</a> junto con el portal para 
+            desarrolladores ofrecido por Discord. Se ha necesitado aprender el funcionamiento interno del envío y recepción de mensajes en un
+            servidor para el correcto tratamiento de estos mediante las funciones que nos ofrece la librería. Los mensajes embedidos han sido cruciales
+            para poder enviar al usuario un texto formateado y con gran cantidad de opciones y herramientas tales como fotos adjuntas, miniaturas, footers y  colores 
+            personalizados.
+            
+          </div>
+          
+          <div class="img-der">
+
+            <img class="img-tech" src="/Imgs/discord-api.jpeg">
+
+          </div>
+
+
+        </div>
+
+
+        <div class="tech" >
+
+
+          <div class="img-izq">
+
+            <img class="img-tech" src="/Imgs/javascript.png">
+
+          </div>
+
+          <div class="tech-der">
+    
+            JavaScript ha sido el lenguaje empleado paralelamente con la libreria DiscordJs para la implementación del bot. Se han usado características
+            tales como la <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">API Promise</a>, operaciones
+            asíncronas, formateo de datos a JSON, tratamiento de cadenas, carga de base de datos local y modularización de las diferentes funciones
+            ofrecidas por el bot.
+          </div>
+    
+
+
+        </div>
+
 
 
     </section>

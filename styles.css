@@ -199,7 +199,7 @@ a {
 
 .header-section{
 
-
+    text-align: center;
     padding:25px;
 }
 
@@ -325,4 +325,56 @@ a {
         display: block;
     }*/
 
+}
+
+.img-izq{
+
+    flex:1;
+    padding-right: 10%;
+    padding-bottom: 15%;
+    align-self: center;
+}
+
+.img-der{
+
+    padding-left: 10%;
+    padding-bottom: 15%;
+    align-self: center;
+    
+}
+
+.img-tech{
+
+    max-width: 200px;
+}
+
+
+.tech-der{
+
+    text-align: justify;
+    padding-bottom: 15%;
+
+
+}
+
+.tech-izq{
+
+    flex: 1;
+    padding-right: 10%;
+    padding-bottom: 15%;
+    text-align: justify;
+    
+
+}
+
+.tech{
+
+    margin:3%;
+    margin-top: 0%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display:flex;
+    border-radius: 15px;
+    border-color: red;
+    
 }
